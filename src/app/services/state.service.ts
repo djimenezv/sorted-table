@@ -6,7 +6,7 @@ import { Subject } from 'rxjs/Subject';
 export class StateService {
 
   // status variables
-  currentPage: number = 0;
+  currentPage: number = 0; 
 
   // observable
   private paginationSubject = new Subject<string>();
