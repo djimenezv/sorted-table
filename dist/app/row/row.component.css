@@ -1,0 +1,21 @@
+
+.row {
+  display: inline-flex;
+  width: 100%;
+}
+.non-profile-column{
+  width: 20%;
+  /*display: table-cell;*/
+}
+
+.profile-column{
+  width: 40%;
+}
+
+.profile-column, .non-profile-column {
+  float: left;
+  font-size: 12px;
+  font-family: sans-serif;
+  padding: 5px 0;
+  border-bottom: 1px solid darkgray;
+}

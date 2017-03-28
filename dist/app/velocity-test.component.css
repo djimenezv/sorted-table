@@ -1,0 +1,43 @@
+.app-container {
+  padding: 5px 15px;
+}
+
+h1{
+  font-size: 18px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: darkblue;
+}
+
+.non-profile-column-header, .profile-column-header{
+  float: left;
+  font-size: 15px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-top: 4px;
+  font-weight: bold;
+}
+
+
+.non-profile-column-header{
+  width: 20%;
+}
+
+.profile-column-header{
+  width: 40%;
+}
+
+.header {
+    background-color: ghostwhite;
+    height: 30px;
+    border: 1px solid DarkGray;
+    border-width: 1px 0;
+}
+
+.non-profile-column-header:hover {
+  color: darkgray;
+  cursor: s-resize;
+}
+

@@ -1,0 +1,22 @@
+<div class="app-container">
+<h1>
+  {{title}}
+</h1>
+<div class="table-container">
+  <div class="pager">
+    <app-pager [pagesAmount]="pagesQty"></app-pager>
+</div>
+
+<div class="header">
+  <div class="non-profile-column-header" (click)="headerItemClick($event,'fullName')">Name</div>
+  <div class="non-profile-column-header" (click)="headerItemClick($event,'title')">Title</div>
+  <div class="non-profile-column-header" (click)="headerItemClick($event,'outletName')">Outlet Name</div>
+  <div class="profile-column-header">Profile</div>
+</div>
+  <app-row  *ngFor= "let oulet of outletsData" [outlet]="oulet" >
+  </app-row>
+<div class="pager">
+    <app-pager [pagesAmount]="pagesQty"></app-pager>
+</div>
+</div>
+</div>

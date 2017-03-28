@@ -1,0 +1,12 @@
+.pager-container {
+  clear: both;
+  display: flex;
+  justify-content: center;
+}
+
+.pager-container div {
+  font-size: 18px;
+  font-family: sans-serif;
+  float: left;
+  padding: 6px 15px;
+}
